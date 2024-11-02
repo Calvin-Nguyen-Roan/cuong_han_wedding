@@ -891,8 +891,9 @@ body {
 /*  mobile  */
 @media only screen and (max-width: 640px) {
     .mobile-block-size-20 {
-        max-block-size: 15% !important;
-        right: 40% !important;
+        max-block-size: 20% !important;
+        top: 27%;
+        left: 0;
     }
 
     .gallery {
