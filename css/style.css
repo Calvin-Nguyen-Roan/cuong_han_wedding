@@ -848,12 +848,12 @@ body {
 
 /* THANK YOU */
 .section-thankyou{
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     color: var(--text-white);
     text-align: center;
 }
