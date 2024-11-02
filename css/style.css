@@ -888,6 +888,13 @@ body {
 /* ------------------------------------------------------------------------- */
 
 /* ====== RESPONSIVE ======= */
+/*  mobile  */
+@media only screen and (max-width: 640px) {
+    .mobile-block-size-20 {
+        max-block-size: 15% !important;
+        right: 40% !important;
+    }
+}
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 640px) {
     .main-about {
@@ -902,8 +909,7 @@ body {
     }
     .bg-bottom-left, .bg-top-right {
         max-width: 60%;
-    }
-    
+    }    
 }
 
 /* Medium devices such as tablets (768px and up) */
